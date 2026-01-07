@@ -1,81 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>David | Data Entry & Google Ads Analyst</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f7f7f7;
-      color: #333;
-    }
-    .container {
-      max-width: 900px;
-      margin: auto;
-      background: #fff;
-      padding: 20px;
-    }
-    h1 {
-      margin-top: 0;
-    }
-    .tagline {
-      color: #555;
-      font-size: 18px;
-      margin-bottom: 20px;
-    }
-    .section {
-      margin-bottom: 30px;
-    }
-    footer {
-      text-align: center;
-      font-size: 14px;
-      color: #777;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>David | Digital Support Specialist</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+.hero {
+  padding: 100px 20px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 20px;
+  opacity: 0.9;
+}
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 34px;
+  background: #1dbf73;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 50px 20px;
+}
+.glass {
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+.card {
+  background: rgba(255,255,255,0.15);
+  padding: 30px;
+  border-radius: 18px;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-8px);
+}
+.card h3 {
+  margin-top: 0;
+}
+.contact a {
+  color: #1dbf73;
+  text-decoration: none;
+  font-weight: 600;
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  opacity: 0.7;
+  font-size: 14px;
+}
+@media(max-width: 600px) {
+  .hero h1 {
+    font-size: 34px;
+  }
+}
+</style>
 </head>
+
 <body>
 
-<div class="container">
+<div class="hero">
   <h1>David</h1>
-  <p class="tagline">Data Entry & Google Ads Analyst</p>
+  <p>Data Entry • Google Ads • Design Support</p>
+  <a class="btn" href="https://www.fiverr.com/s/AyvLBG4" target="_blank">
+    Hire Me on Fiverr
+  </a>
+</div>
 
-  <div class="section">
-    <h2>About</h2>
+<div class="container">
+
+  <div class="glass">
+    <h2>About Me</h2>
     <p>
-      Experienced professional specializing in data entry, document handling,
-      and Google Ads analysis, with a strong focus on accuracy and clean work.
+      Experienced digital support professional specializing in accurate data handling,
+      Google Ads analysis, and clean, modern design work. Focused on delivering
+      reliable results with clarity and consistency.
     </p>
   </div>
 
-  <div class="section">
+  <div class="glass">
     <h2>Services</h2>
-    <ul>
-      <li>Data Entry & Typing</li>
-      <li>PDF to Word / Excel Conversion</li>
-      <li>Basic Excel Tasks</li>
-      <li>Google Ads (AdWords) Analysis</li>
-      <li>Document Formatting</li>
-    </ul>
+    <div class="cards">
+      <div class="card">
+        <h3>📊 Data Entry</h3>
+        <p>Accurate data entry, typing, document formatting, and cleanup.</p>
+      </div>
+      <div class="card">
+        <h3>📈 Google Ads</h3>
+        <p>AdWords data analysis, reports, and performance insights.</p>
+      </div>
+      <div class="card">
+        <h3>🎨 Design</h3>
+        <p>Logos, social media posts, and simple branding using Canva.</p>
+      </div>
+    </div>
   </div>
 
-  <div class="section">
+  <div class="glass contact">
     <h2>Contact</h2>
     <p>
-      Fiverr Gig: <a href="https://www.fiverr.com/s/AyvLBG4" target="_blank">Hire me on Fiverr</a><br>
-      Email: davidviswan@gmail.com
+      Email: <a href="mailto:davidviswan@gmail.com">davidviswan@gmail.com</a>
     </p>
   </div>
 
-  <footer>
-    © 2026 David. All rights reserved.
-  </footer>
 </div>
+
+<footer>
+  © 2026 David | All Rights Reserved
+</footer>
 
 </body>
 </html>
